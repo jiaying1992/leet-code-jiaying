@@ -1,2 +1,4 @@
-# leet-code-jiaying
-My solutions about some algorithms on leetcode
+# LeetCode
+LeetCode is a coding online judger.
+##Basic information
+programming language: C/C++
