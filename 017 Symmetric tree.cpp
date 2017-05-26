@@ -18,7 +18,7 @@ Note:
 Bonus points if you could solve it both recursively and iteratively.
 ---------------------------------------------------------------------------------------------------
 # Solution
-1¡¢recursion:
+1. recursion:
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,7 +47,7 @@ public:
         return help(left->left, right->right) && help(left->right, right->left) && (right->val==left->val);
     }
 };
-2¡¢queue:
+2. queue:
 class Solution {
 public:
     bool isSymmetric(TreeNode *root) {
